@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {   
-        uint16_t choix;
-        string nom;
-        string pren;
-        float sal;
+    uint16_t choix;
+    string nom;
+    string pren;
+    float sal;
 
-        static std::vector<Employe> ListeEmps;
+    static std::vector<Employe> ListeEmps;
     while (true)
     {
         cout << "1. Ajouter un employee\n2. Afficher la liste\n3. Rechercher un employe\n4. Quitter\n> ";
