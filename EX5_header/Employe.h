@@ -1,11 +1,16 @@
 #pragma once
+#include <vector>
 #include <string>
 class Employe
 {
-public:
     std::string nom;
     std::string prenom;
     float salaire;
-    
-    Employe(std::string &&n, std::string &&p, float &&s);
+public:
+    Employe(std::string n, std::string p, float s);
+    std::string getNom();
+    std::string getPrenom();
+    void setNom(std::string n);
+    void setPrenom(std::string p);
+    void Afficher_infos();
 };

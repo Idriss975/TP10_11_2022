@@ -24,7 +24,7 @@ runEx7:
 	.\bin\Ex7.exe
 
 Ex8 Ex8.cpp:
-	$(CC) $(FLAGS) Ex8.cpp -o bin/Ex8.exe
+	$(CC) $(FLAGS) Ex8.cpp EX5_header/Employe.cpp -o bin/Ex8.exe
 
 runEx8:
 	.\bin\Ex8.exe
