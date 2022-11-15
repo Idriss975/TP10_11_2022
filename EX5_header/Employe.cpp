@@ -1,5 +1,7 @@
 #include "Employe.h"
 #include <iostream>
+
+std::vector<Employe> Employe::ListeEmps;
 Employe::Employe(std::string n, std::string p, float s)
 {
     nom = n;
