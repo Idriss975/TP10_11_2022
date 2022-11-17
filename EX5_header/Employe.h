@@ -7,7 +7,7 @@ class Employe
     std::string prenom;
     float salaire;
 public:
-    static std::vector<Employe> ListeEmps;
+    inline static std::vector<Employe> ListeEmps;
     Employe(std::string n, std::string p, float s);
     std::string getNom();
     std::string getPrenom();
